@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+      background-color: #e3e7eb;
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* START PROJECT */
+      .myproject-form {
+        width: 450px;
+        padding: 20px;
+        border-radius: 8px;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    
+    .myproject-form div{
+        margin-top: 10px;
+    }
+    
+    .myproject-form input {
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #dbdbdb;
+        box-sizing:border-box;
+        padding: 8px;
+    }
+    
+    .myproject-form h1 {
+        text-align: center;
+    }
+    
+    .myproject-form textarea {
+        width: 100%;
+        resize: none;
+        border-radius: 5px;
+        height: 100px;
+        border: 1px solid #dbdbdb;
+        box-sizing:border-box;
+    }
+    
+    .myproject-form hr {
+        border: 1px solid #dbdbdb;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        }
+    
+    .submit {
+        display: flex;
+    }
+    
+    .action {
+        width: 100%;
+    }
+    
+    .input-date {
+        display: flex;
+    }
+    
+    .input-checkbox {
+        display: inline-block;
+        padding: 0px;
+    }
+
+    .checkbox-left label{
+        display: flex;
+        margin: 10px
+    }
+
+    .checkbox-right label{
+        display: flex;
+        margin: 10px
+    }
+    
+    .input-checkbox div{
+        display: flex; 
+        width: 100%;
+        text-align: center;
+        padding: 0px 10px;
+        margin: auto;
+    }
+
+
+    
+    .input-checkbox input{
+        box-shadow: none;
+        width: 20px;
+        margin-right: 15px;
+        margin-top: 5px;
+        
+    }
+    
+    .myproject-list {
+        border-radius: 15px;
+    }
+    
+    
+    .myproject-list h2 {
+        text-align: center;
+    }
+    
+    .myproject-cardlist {
+        display: flex;
+        flex-wrap: wrap ;
+    }
+    
+    .myproject-card {
+        width: 300px;
+        border: 4px solid black;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+    
+    .myproject-card div button {
+    text-decoration: none;
+    font-size: 18px;
+    background-color: black;
+    padding: 6px 24px;
+    border-radius: 24px;
+    box-shadow: 10px;
+    color: white;
+    }
+    
+    .myproject-card div button:hover {
+      background-color: orangered;
+    }
+    
+    .myproject-card a {
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+        color: #000;
+    }
+    .myproject-card img{
+        width: 100%;    
+    }
+    
+    .desc-project {
+        text-align: justify;
+    }
+    
+    .action {
+        width: 100%;
+        display: flex;
+        margin: 10px;
+        text-align: center;
+        color: white;  
+    }
+    
+    .tech-used {
+      display: flex;
+      height: 50px;
+      font-size: x-large;
+      display: inline-flex;
+      cursor: pointer;
+      border: none;
+    }
+    
+    .tech-used img {
+        width: 30px;
+        margin: 10px;
+    }
+    .detail-container {
+        background: #fff;
+        margin: auto;
+        
+    }
+    
+    .header-detail {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .detail-photo {
+        object-fit: cover;
+        border-radius: 20px;
+        width: 400px;
+        height: 400px;
+        margin: 30px;
+    }
+    .technologies-used div{
+        display: flex; 
+        width: 100%;
+        text-align: center;
+        padding: 0px 10px;
+        margin: 5px;
+    }
+    
+    .technologies-used p {
+        margin-left: 10px;
+    }
+    .detail-desc {
+        padding: 20px;
+        margin: 30px;
+    }
+    .duration img {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    
+    .submit button {
+      width: 100px;
+      height: 30px;
+      background-color: black;
+      margin: auto;
+      padding: 4px 10px;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .submit button:hover {
+      background-color: orangered;
+    }
+    
+    .kotak {
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+        /* END PROJECT */

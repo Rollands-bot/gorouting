@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+      background-color: #e3e7eb;
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto Condensed', sans-serif;
+}
+  /* homepage */
+  .kartu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px 100px 32px 100px;
+    padding: 24px 76px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+}
+
+.kartu-left {
+  text-align: left;
+  width: 580px;
+  font-family: initial;
+}
+
+.kartu-left p {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+.contact  {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+}
+
+.button a{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: black;
+    padding: 6px 24px;
+    border-radius: 24px;
+    color: white;
+}
+
+.button a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.curiculum {
+    margin-left: 16px;
+}
+
+.curiculum a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.curiculum  i {
+    margin-left: 8px;
+    color: #000000;
+}
+
+.kartu-right {  
+    text-align: center;
+}
+
+.kartu p {
+  text-align: left;
+}
+
+.image {
+    background-color: white;
+    line-height: 1.4;
+    color: #333;
+    border-radius: 0.5rem;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .image img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  .self {
+    padding: 8px 26px 8px;
+  }
+
+  .self h2 {
+    margin: 0;
+    font-size: 22px;
+  }
+  .self p {
+    text-align: center;
+    margin: 8px 0 8px 0;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: left;
+    margin-top: 32px;
+  }
+
+  .icon a {
+    height: 32px;
+    width: 32px;
+    background: #000000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .icon a:hover{
+    background: orangered;
+  }
+
+  .icon .icon-b {
+    margin: 0 16px;
+  }
+
+  .icon .icon-c {
+    margin: 0 16px 16px 0;
+  }
+  /* tutup homepage */
+
+  /* Contact Me */
+.submits {
+    float: right;
+    padding: 10px 32px;
+    border-radius: 24px;
+    margin: 10px 0px;
+}
+
+.submits:hover {
+    background-color: orangered;
+}
+
+  /* tutup contact me */
+
+  /* My Project */
+.myproject-list {
+    background-color: #f4f3f3;
+    padding-top: 5%;
+    margin-top: 7%;
+}
+
+.row-cols-1 {
+  display: grid;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+}
+
+.row-cols-1 img {
+  width: 100%;
+  border-radius: 3%;
+}
+
+.caption h3 {
+  display: flex;
+  font-size: medium;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+.caption h5 {
+  display: flex;
+  font-family: italic;
+  font-size: smaller;
+}
+
+.caption p {
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: smaller;
+}
+
+.fa-brands {
+  padding: 2%;
+}
+
+.myproject-list h2 {
+    text-align: center;
+}
+
+.myproject-cardlist {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+    padding-left: 6%;
+}
+
+.myproject-card {
+    width: 300px;
+    border: 4px solid black;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit button {
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  background-color: black;
+  color: #fff;
+  padding: 1px 30px;
+  border-radius: 10%;
+}
+
+.submit button:hover {
+    background-color: orangered;
+    color: white;
+  }

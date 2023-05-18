@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+    background-color: #e3e7eb;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* navbar */
+
+  nav img {
+    width: 49px;
+    height: 33px;
+    margin-right: 50px;
+  }
+  
+  .nav-right a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    background-color: black;
+    padding: 6px 20px;
+    border-radius: 6px;
+    color: white;
+  }
+  
+  .nav-right a:hover {
+    background-color: orangered;
+    color: white;
+  }
+/* tutup navbar */
